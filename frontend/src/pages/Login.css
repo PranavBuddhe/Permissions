@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+.login-container {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    padding: 20px;
+}
+
+
+.login-card {
+
+    width: 100%;
+
+    max-width: 420px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.login-header {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+.login-header h1 {
+
+    margin: 0;
+
+    font-size: 32px;
+
+    color: #222;
+
+}
+
+
+.login-header p {
+
+    margin-top: 10px;
+
+    color: #777;
+
+}
+
+
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: 600;
+
+    color: #333;
+
+}
+
+
+.form-group input {
+
+    width: 100%;
+
+    padding: 13px 15px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.3s;
+
+}
+
+
+.form-group input:focus {
+
+    border-color: #667eea;
+
+    box-shadow:
+        0 0 0 3px rgba(102, 126, 234, 0.15);
+
+}
+
+
+.login-button {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #667eea;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.login-button:hover {
+
+    background: #5568d9;
+
+}
+
+
+.login-button:disabled {
+
+    background: #aaa;
+
+    cursor: not-allowed;
+
+}
+
+
+.message {
+
+    text-align: center;
+
+    margin-top: 15px;
+
+    color: #d9534f;
+
+    font-weight: 500;
+
+}
+
+
+.login-footer {
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    border-top: 1px solid #eee;
+
+    padding-top: 20px;
+
+}
+
+
+.login-footer p {
+
+    margin-bottom: 8px;
+
+    color: #777;
+
+}
+
+
+.register-link {
+
+    border: none;
+
+    background: none;
+
+    color: #667eea;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+}
